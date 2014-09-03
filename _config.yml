@@ -1,0 +1,9 @@
+name: "Ashkan Blog"
+description: "a blog developed by Jekyll"
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
