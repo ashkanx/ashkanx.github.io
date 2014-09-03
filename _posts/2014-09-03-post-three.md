@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: We want wordpress not Jekyll :)
 layout: default
 ---
 
