@@ -12,14 +12,11 @@
     <title></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="/css/binary.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <style>
-    body {
-        padding-top: 60px;
-    }
-    </style>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,34 +29,161 @@
     <![endif]-->
 </head>
 
-<body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Ashkan Blog</a>
+<body class='EN'>
+    <div id='page-wrapper'>
+        <div id='topbar'>
+            <div class='grd-container'>
+                <div class='grd-parent'>
+                    <div class='by_client_type client_virtual grd-grid-6 grd-grid-mobile-12' id='virtualupgrade' style='display: none;'>
+                        <span class='grd-hide-mobile'>
+                            <span>You&#39;re using a virtual money account.</span>
+                        </span>
+                        <a class='pjaxload with_login_cookies' href='https://www.binary.com/c/linkto_acopening.cgi?actype=real&amp;l=EN'>Upgrade to a real money account</a>
+                    </div>
+                    <div class='grd-grid-6 grd-grid-mobile-12 grd-parent' id='topbar-info'>
+                        <div class='grd-grid-5 grd-grid-mobile-7' id='gmt-clock'></div>
+                        <div class='grd-grid-3 grd-hide-mobile' id='contact-us'>
+                            <a class='pjaxload with_login_cookies' href='https://www.binary.com/c/contact.cgi?l=EN'>Contact Us</a>
+                        </div>
+                        <div class='grd-grid-4 grd-grid-mobile-5'>
+                            <span class='EN' id='language_select'>
+                                <select>
+                                    <option class='DE'>Deutsch</option>
+                                    <option class='ID'>Bahasa Indonesia</option>
+                                    <option class='ZH_CN'>简体中文</option>
+                                    <option class='PL'>Polish</option>
+                                    <option class='RU'>Русский</option>
+                                    <option class='PT'>Português</option>
+                                    <option class='ES'>Español</option>
+                                    <option class='FR'>Français</option>
+                                    <option class='EN' selected='selected'>English</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a>
-                    </li>
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
         </div>
-    </div>
+        <div id='header'>
+            <div class='grd-container'>
+                <div class='grd-row-padding'>
+                    <div class='grd-grid-3 grd-grid-mobile-2 grd-grid-phablet-1'>
+                        <a id='logo' href='https://www.binary.com/?l=EN'>
+                            <div class='grd-grid-3 grd-grid-mobile-12 grd-grid-phablet-12 grd-no-gutter'>
+                                <img class='responsive grd-float-left' src='https://static.binary.com/2.6.0/images/pages/binary-symbol-logo.svg' />
+                            </div>
+                            <div class='grd-grid-9 grd-hide-mobile grd-hide-phablet' id='binary-logo-text'>
+                                <img class='responsive' src='https://static.binary.com/2.6.0/images/pages/binary-type-logo.svg' />
+                            </div>
+                        </a>
+                    </div>
+                    <div class='grd-grid-6 grd-hide-mobile grd-hide-phablet'>
+                        <div id='main-navigation'>
+                            <ul id='menu-top'>
+                                <li class=''>
+                                    <a class='pjaxload' href='https://www.binary.com/why-us?l=EN'>Why Us?</a>
+                                </li>
+                                <li class=''>
+                                    <a class='pjaxload' href='https://www.binary.com/get-started?l=EN'>Get Started</a>
+                                </li>
+                                <li class=''>
+                                    <a class='pjaxload' href='https://www.binary.com/tour?l=EN'>Tour</a>
+                                </li>
+                                <li>
+                                    <a href='https://www.binary.com/c/trade.cgi?l=EN'>Trade</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class='by_client_type client_real client_virtual grd-grid-3 grd-grid-mobile-9 grd-grid-phablet-10' id='client-logged-in' style='display: none;'>
+                        <div id='logout'>
+                            <a class='pjaxload' id='client_loginid' href='https://www.binary.com/d/my_account.cgi?l=EN'></a>
+                            <a class='logout' href='https://www.binary.com/logout?l=EN'>Log out</a>
+                        </div>
+                    </div>
+                    <div class='grd-grid-1 grd-hide grd-no-gutter-mobile grd-show-mobile grd-show-phablet'>
+                        <div id='mobile-menu-icon-container'>
+                            <a id='mobile-menu-icon' href='#mobile-menu'>
+                                <img class='responsive' src='https://static.binary.com/2.6.0/images/pages/binary-mobile-menu.svg' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='content-holder'>
+            <div class='tab-menu' id='main-menu'>
+                <div class='grd-container grd-hide-mobile grd-hide-phablet tab-menu-wrap'>
+                    <div class='grd-grid-12'>
+                        <ul class='items'>
+                            <li class='item  ' id='topMenuStartBetting'>
+                                <a class='link  ' href='https://www.binary.com/c/trade.cgi?l=EN'>Strategy Guide</a>
+                            </li>
+                            <li class='item by_client_type client_real client_virtual' id='topMenuMyAccount'>
+                                <a class='link with_login_cookies pjaxload' href='#'>Daily Report</a>
+                            </li>
+                            <li class='item  ' id='topMenuCashier'>
+                                <a class='link pjaxload' href='#'>Videos</a>
+                            </li>
+                            <li class='item  ' id='topMenuResources'>
+                                <a class='link pjaxload' href='#'>Webinars</a>
+                            </li>
+                            <li class='item  ' id='topMenuCharting'>
+                                <a class='link pjaxload' href='#'>Contributers</a>
+                            </li>
+                            <li class='item  ' id='topMenuRunbets'>
+                                <a class='link with_login_cookies pjaxload' href='#'>Downloads</a>
+                            </li>
+                            <li class='item  ' id='topMenuRunbets'>
+                                <a class='link with_login_cookies pjaxload' href='#'>Events</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class='grd-hide grd-show-mobile grd-show-phablet' id='mobile-menu-container'>
+                <div class='grd-hide' id='mobile-menu'>
+                    <ul>
+                        <li class=''>
+                            <a class='pjaxload' href='https://www.binary.com/why-us?l=EN'>Why Us?</a>
+                        </li>
+                        <li class=''>
+                            <a class='pjaxload' href='https://www.binary.com/get-started?l=EN'>Get Started</a>
+                        </li>
+                        <li class=''>
+                            <a class='pjaxload' href='https://www.binary.com/tour?l=EN'>Tour</a>
+                        </li>
+                        <li class='item  ' id='topMenuStartBetting'>
+                            <a class='pjaxload link  ' href='https://www.binary.com/c/trade.cgi?l=EN'>Start Trading</a>
+                        </li>
+                        <li class='item by_client_type client_real client_virtual' id='topMenuMyAccount'>
+                            <a class='pjaxload link with_login_cookies pjaxload' href='https://www.binary.com/d/my_account.cgi?l=EN'>My Account</a>
+                        </li>
+                        <li class='item  ' id='topMenuCashier'>
+                            <a class='pjaxload link pjaxload' href='https://www.binary.com/c/available_payment_methods.cgi?l=EN'>Cashier</a>
+                        </li>
+                        <li class='item  ' id='topMenuResources'>
+                            <a class='pjaxload link pjaxload' href='https://www.binary.com/resources?l=EN'>Resources</a>
+                        </li>
+                        <li class='item  ' id='topMenuCharting'>
+                            <a class='pjaxload link pjaxload' href='https://www.binary.com/charting?l=EN'>Charting</a>
+                        </li>
+                        <li class='item  ' id='topMenuRunbets'>
+                            <a class='pjaxload link with_login_cookies pjaxload' href='https://www.binary.com/d/tick_trades.cgi?l=EN'>Tick Trades</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class='types-of-trades-content' id='content'>
+                <div class="gtm_data_layer" style="display: none;">
+                    <div id="language">EN</div>
+                    <div id="pageTitle">Types of trades</div>
+                    <div id="pjax">false</div>
+                    <div id="event">page_load</div>
+                </div>
 
-    <div class="container">
+                <div class="content">
+                    <div class="grd-container">
 <div class="row">
     <div class="col-md-8">
         <h1></h1>
@@ -67,20 +191,60 @@
         
 <div class="row">
   <div class="col-md-12">
-    <h2>Consectetur Elit</h2>
+    <h2>We want wordpress not Jekyll :)</h2>
     <h4>03 September 2014</h4>
     <p>
-      <a href="/2014/09/03/second-post/">Read Post</a>
+      <a href="/2014/09/03/post-three/">Read Post</a>
     </p>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-12">
-    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+    <h2>binary blog developed by Jekyll</h2>
     <h4>03 September 2014</h4>
     <p>
-      <a href="/2014/09/03/first-post/">Read Post</a>
+      <a href="/2014/09/03/post-six/">Read Post</a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Binary blog is coming soon!</h2>
+    <h4>03 September 2014</h4>
+    <p>
+      <a href="/2014/09/03/post-one/">Read Post</a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>This is another post</h2>
+    <h4>03 September 2014</h4>
+    <p>
+      <a href="/2014/09/03/post-four%20copy/">Read Post</a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>This is another post</h2>
+    <h4>03 September 2014</h4>
+    <p>
+      <a href="/2014/09/03/post-four/">Read Post</a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>This is a post</h2>
+    <h4>03 September 2014</h4>
+    <p>
+      <a href="/2014/09/03/post-five/">Read Post</a>
     </p>
   </div>
 </div>
@@ -110,12 +274,19 @@
 <p>Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.</p>
 <ul>
   
-    <li><a href="/2014/09/03/second-post/">Consectetur Elit</a></li>
+    <li><a href="/2014/09/03/post-three/">We want wordpress not Jekyll :)</a></li>
   
-    <li><a href="/2014/09/03/first-post/">Lorem Ipsum Dolor Sit Amet</a></li>
+    <li><a href="/2014/09/03/post-six/">binary blog developed by Jekyll</a></li>
+  
+    <li><a href="/2014/09/03/post-one/">Binary blog is coming soon!</a></li>
+  
+    <li><a href="/2014/09/03/post-four%20copy/">This is another post</a></li>
+  
+    <li><a href="/2014/09/03/post-four/">This is another post</a></li>
   
 </ul>
     </div>
+</div>
 </div>
 </div>
 
@@ -123,10 +294,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- // <script src="/js/bootstrap.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- // <script src="/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>
 
 </html>
