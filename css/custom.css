@@ -45,8 +45,18 @@ font-weight:700
 	float:left;
 }
 .blog-main{
-	background-color: #e6e6e6;
+	/*background-color: #e6e6e6;*/
 	border-top: 2px solid #ccc;
 	float: left;
 	padding: 30px;
 }
+h2{
+	margin-bottom: 20px;
+}
+h5{
+	margin-bottom: 10px;
+	color:#ccc;
+}
+
+
+
