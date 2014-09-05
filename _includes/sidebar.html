@@ -1,12 +1,15 @@
-<h3>Latest Posts</h3>
+<div class="sidebar">
+    <h3>Latest Posts</h3>
 
-<p></p>
-<ul>
-  {% for post in site.posts limit: 5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-<p></p>
-<p></p>
-<h3>Why Binary?</h3>
-<p>Binary.com's patented pricing technology allows you to benefit from the same rates of return as traders in the interbank market.</p>
+    <p></p>
+    <ul class="bullet">
+        {% for post in site.posts limit: 5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <p></p>
+    <p></p>
+    <h3>Why Binary?</h3>
+    <p>Binary.com's patented pricing technology allows you to benefit from the same rates of return as traders in the interbank market.</p>
+</div>

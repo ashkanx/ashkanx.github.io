@@ -55,3 +55,34 @@ h5 {
     margin-bottom:10px;
     color:#ccc;
 }
+.sidebar{
+	background-color: #e6e6e6;
+	padding: 20px;
+}
+.sidebar ul li a{
+	font-size: 14px;
+}
+ul.bullet li{
+	list-style-image: url(https://static.binary.com/2.6.0/images/pages/get-started/list-circle_1.png);
+}
+.grd-default-container {
+padding-top: 10px;
+padding-bottom: 5px;
+}
+.post{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.post-details{
+	margin: 1em 0 0.1em 0;
+}
+.post.title{
+
+}
+.post-date{
+	color:#ccc;
+	font-size: 14px;
+}
+.post-more{
+	float: right;;
+}
