@@ -6,7 +6,7 @@ layout: default
 <div class="post">
     <h2 class="post-title" >{{ post.title }}</h2>
     
-    {{ post.excerpt | strip_html |truncatewords:40 }} 
+    {{ post.excerpt | strip_html |truncatewords:50 }} 
     <div class="post-details">
       <span class="post-date">{{ post.date | date_to_long_string }}</span>
       <a class="post-more" href="{{ post.url }}">Read More...</a>
