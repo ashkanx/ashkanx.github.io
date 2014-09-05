@@ -1,13 +1,8 @@
 ---
-title: This is another post
+title: Binary.com Pulls the Plug on the Legacy Chart
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.
+This move comes as a result of the recent upgrade to our charting package, which we are pleased to say was very well-received by our customers. Effective from the 14 April 2014, the "Legacy Charts" will be brought down, to make room for our new and improved "Live Charts" and the "Java application" which you can download right here. 
 
-## Pellentesque sollicitudin
-
-Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper. 
-
-## Loerm
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatum ut quas, quo voluptatem laborum suscipit non fugiat qui nemo! Doloribus, neque id. Quibusdam placeat vero eaque alias nesciunt modi.
+Get access to tick-by-tick data for Forex & Random Indices or daily, hourly, weekly and monthly prices for Stocks, Indices, Commodities & Sectors. Now you can export data directly from the Live Charts to CSV, JPEG, or PDF. Look for the  icon button on the top right corner of the chart (circled in red) . Try our "Live Charts" now!

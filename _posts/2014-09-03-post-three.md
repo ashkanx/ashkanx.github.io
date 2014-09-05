@@ -1,10 +1,10 @@
 ---
-title: We want wordpress not Jekyll :)
+title: More flexibility, less complexity
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.
+Timing and flexibility mean everything when you're trying to get in on a trade. Now we have two great features that will help you zero in on your perfect trade. 
 
-## Pellentesque sollicitudin
+First, we have added a new "End-Time" option (in addition to "Duration") to choose an expiry date & time down to the very minute. This means you may now chose a fixed expiry time for even an intraday contract. For example, if you want your contract to expire at exactly 13:35 GMT today, we have you covered. 
 
-Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper. 
+Second, we have added a new "Stake" option in addition to the "Payout" section. Now you can select your "Stake", and enter the price that you're willing to pay for your trade, instead of the payout that you would like to win. Have only $15.50 to spend on your next trade? Now, enter this exact amount, and we'll give you a payout that matches this price. It's that easy!

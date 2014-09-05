@@ -1,21 +1,20 @@
----
-layout: default
----
+--- layout: default --- {% for post in paginator.posts %}
+<div class="">
+    <div class="">
+        <h2>{{ post.title }}</h2>
+        
 
-{% for post in paginator.posts %}
-<div class="row">
-  <div class="col-md-12">
-    <h2>{{ post.title }}</h2>
-    <h5>{{ post.date | date_to_long_string }}</h5>
-    {{ post.excerpt | strip_html |truncatewords:40 }} 
-    <p>
-      <a href="{{ post.url }}">Read Post</a>
-    </p>
-  </div>
+        {{ post.excerpt | strip_html |truncatewords:40 }}
+        <p>
+            <h5>{{ post.date | date_to_long_string }}</h5>
+            <a style="float:right;" href="{{ post.url }}">Read More</a>
+
+        </p>
+    </div>
 </div>
 {% endfor %}
-<div class="row">
-  <div class="col-md-12">
+<!-- <div class="">
+  <div class="">
     <div class="pagination">
       <ul>
         {% if paginator.previous_page %}
@@ -47,4 +46,4 @@ layout: default
       </ul>
     </div>
   </div>
-</div>
+</div> -->
