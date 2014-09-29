@@ -1,21 +1,24 @@
-{% include header.html %}
-<div class="header-slide">
-    <div class="slide-text">
-        <h1>What's New?</h1>
-        <p>Get the latest news and updates about your Binary.com platform. Bookmark this page to be the first to know about new features added, service announcements or special offers</p>
-    </div>
-    <div class="slide-image"><img src="images/home-header.jpg" alt=""></div>
-    <!-- <div style="clear:both;"></div> -->
+<!DOCTYPE html>
+<html>
 
-</div>
-<div class="blog-main">
-    <div class="" style="width:65%;float:left;margin-right:5%;">
-        <h1>{{ page.title }}</h1>
+{% include head.html %}
+{% include language-code.html %}
 
-        {{ content }}
+<body>
+
+    {% include tagmanager.html %}
+    {% include topbar.html %}
+    {% include header.html %}
+    {% include mainmenu-blog.html %}
+
+    <div id="content">
+        <div class="grd-container">
+            {{ content }}
+        </div>
     </div>
-    <div class="" style="width:30%;float:left;">
-        {% include sidebar.html %}
-    </div>
-</div>
-{% include footer.html %}
+
+    {% include footer.html %}
+
+</body>
+
+</html>

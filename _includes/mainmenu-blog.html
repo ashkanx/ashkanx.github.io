@@ -1,0 +1,16 @@
+<div id="main-menu" class="tab-menu">
+    <div class="tab-menu-wrap grd-container grd-hide-mobile grd-hide-phablet">
+        <div class="grd-grid-12">
+            <ul class="items">
+                <li>
+                    <a href="{{ '/' | prepend: site.baseurl }}"><img src="http://blog.binary.com/files/theme/home-icon.png" width="20" height="16" alt=""></a>
+                </li>
+                {% for node in site.main-en %}
+                {% if page.url == node.url %}<li class="active">{% else %}<li>{% endif %}
+                    <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
