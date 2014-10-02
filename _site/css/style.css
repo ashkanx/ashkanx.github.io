@@ -175,6 +175,21 @@ a:hover, a:focus{
     .pagination .next{
         float:right;
     }
+    .social{
+        background-color: #fafafa;
+        margin-top:20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .widget.pocket{
+        top:2px!important;
+    }
+    .pocket-btn{
+        display: inline;
+    }
+    .fb_iframe_widget{
+        bottom: 5px;
+    }
 
 footer{
     background-color: #006064;
