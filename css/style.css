@@ -158,6 +158,7 @@ a:hover, a:focus{
         background-color: rgba(0, 0, 0, 0.05);
     }
     .pagination{
+        margin-top:30px;
         width:100%;
         display: block;
     }
