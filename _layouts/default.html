@@ -2,19 +2,13 @@
 <html>
 
 {% include head.html %}
-{% include language-code.html %}
 
 <body>
-
-    {% include tagmanager.html %}
-    {% include topbar.html %}
+    {% include sideMenu.html %}
     {% include header.html %}
-    {% include mainmenu-blog.html %}
 
-    <div id="content">
-        <div class="grd-container">
-            {{ content }}
-        </div>
+    <div class="container">
+        {{content}}
     </div>
 
     {% include footer.html %}
