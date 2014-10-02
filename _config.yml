@@ -12,7 +12,8 @@ github_username:  ashkanx
 
 # Build settings
 markdown: kramdown
-paginate: 1
+paginate: 5
+paginate_path: "page:num"
 
 collections:
   main-en:

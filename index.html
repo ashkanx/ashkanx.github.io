@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <div class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <div class="post">
         <h1>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -22,7 +22,21 @@ layout: default
       </div>
     {% endfor %}
   </div>
- 
+  <!-- Pagination links -->
+<div class="pagination"><p>
+  {% if paginator.previous_page %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">قبلی</a>
+  {% else %}
+    <span class="previous">قبلی</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">بعدی</a>
+  {% else %}
+    <span class="next ">بعدی</span>
+  {% endif %}</p>
+</div>
+
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
