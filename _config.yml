@@ -12,7 +12,7 @@ github_username:  ashkanx
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 1
 
 collections:
   main-en:
