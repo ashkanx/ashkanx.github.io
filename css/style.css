@@ -148,6 +148,9 @@ a:hover, a:focus{
     background-color: #455a64;
     margin-bottom: 20px;
     }
+    .readMore{
+        margin-top: 15px;
+    }
     .page-header{
         padding-right: 50px;
         margin: 0;
