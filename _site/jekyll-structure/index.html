@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Github Pages + Jekyll</title>
+    <title>Jekyll directory structure</title>
     <meta name="description" content="I write about whatever I find interesting!">
 
     <!-- Latest compiled and minified CSS -->
@@ -58,13 +58,34 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Github Pages + Jekyll</h1>
-    <p class="post-meta">Oct 4, 2014</p>
+    <h1 class="post-title">Jekyll directory structure</h1>
+    <p class="post-meta">Oct 5, 2014</p>
   </header>
 
   <article class="post-content">
-    <p>This blog is powered by <a href="https://pages.github.com/">Githb Pages</a> using <a href="http://jekyllrb.com/">Jekyll</a>.
-You can see jekyll documents <a href="http://jekyllrb.com/docs/home/">here</a></p>
+    <p>This is the idea behind jekyll:
+you write a text with any supported markup languages and pass it to jekyll and Jekyll transform it to HTML with going through a series of layout files.</p>
+
+<p>here is a basic structure of jekyll directory:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">.</span>
+<span class="err">├──</span> <span class="n">_config</span><span class="o">.</span><span class="n">yml</span>
+<span class="err">├──</span> <span class="n">_drafts</span>
+<span class="o">|</span>   <span class="err">├──</span> <span class="k">begin</span><span class="o">-</span><span class="n">with</span><span class="o">-</span><span class="n">the</span><span class="o">-</span><span class="n">crazy</span><span class="o">-</span><span class="n">ideas</span><span class="o">.</span><span class="n">textile</span>
+<span class="o">|</span>   <span class="err">└──</span> <span class="n">on</span><span class="o">-</span><span class="n">simplicity</span><span class="o">-</span><span class="k">in</span><span class="o">-</span><span class="n">technology</span><span class="o">.</span><span class="n">markdown</span>
+<span class="err">├──</span> <span class="n">_includes</span>
+<span class="o">|</span>   <span class="err">├──</span> <span class="n">footer</span><span class="o">.</span><span class="n">html</span>
+<span class="o">|</span>   <span class="err">└──</span> <span class="n">header</span><span class="o">.</span><span class="n">html</span>
+<span class="err">├──</span> <span class="n">_layouts</span>
+<span class="o">|</span>   <span class="err">├──</span> <span class="n">default</span><span class="o">.</span><span class="n">html</span>
+<span class="o">|</span>   <span class="err">└──</span> <span class="n">post</span><span class="o">.</span><span class="n">html</span>
+<span class="err">├──</span> <span class="n">_posts</span>
+<span class="o">|</span>   <span class="err">├──</span> <span class="mi">2007</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">29</span><span class="o">-</span><span class="n">why</span><span class="o">-</span><span class="n">every</span><span class="o">-</span><span class="n">programmer</span><span class="o">-</span><span class="n">should</span><span class="o">-</span><span class="n">play</span><span class="o">-</span><span class="n">nethack</span><span class="o">.</span><span class="n">textile</span>
+<span class="o">|</span>   <span class="err">└──</span> <span class="mi">2009</span><span class="o">-</span><span class="mo">04</span><span class="o">-</span><span class="mi">26</span><span class="o">-</span><span class="n">barcamp</span><span class="o">-</span><span class="n">boston</span><span class="o">-</span><span class="mi">4</span><span class="o">-</span><span class="n">roundup</span><span class="o">.</span><span class="n">textile</span>
+<span class="err">├──</span> <span class="n">_data</span>
+<span class="o">|</span>   <span class="err">└──</span> <span class="n">members</span><span class="o">.</span><span class="n">yml</span>
+<span class="err">├──</span> <span class="n">_site</span>
+<span class="err">└──</span> <span class="n">index</span><span class="o">.</span><span class="n">html</span></code></pre></div>
 
   </article>
 
