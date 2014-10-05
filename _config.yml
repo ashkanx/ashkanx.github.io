@@ -1,6 +1,7 @@
 # Site settings
 title: Ashkan Blog
 email: ashkanx@outlook.com
+description:  I write about whatever I find interesting!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ashkanx.com" # the base hostname & protocol for your site
 twitter_username: ashkanxx
@@ -10,7 +11,6 @@ github_username:  ashkanx
 markdown: kramdown
 paginate: 5
 #conversion
-excerpt_separator:"\n\n"
 paginate_path: "page:num"
 
 collections:
