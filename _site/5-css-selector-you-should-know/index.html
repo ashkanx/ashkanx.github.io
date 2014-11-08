@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Hello World</title>
-    <meta name="description" content="<p>Hello world!
-This is my first post</p>
+    <title>Five CSS selectors you should know</title>
+    <meta name="description" content="<p>There are several CSS selectors which are available in modern browsers.
+here I’m gonna talk about 5 of them!</p>
 
 ">
 
@@ -71,13 +71,59 @@ This is my first post</p>
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Hello World</h1>
-    <p class="post-meta">Oct 4, 2014</p>
+    <h1 class="post-title">Five CSS selectors you should know</h1>
+    <p class="post-meta">Nov 8, 2014</p>
   </header>
 
   <article class="post-content">
-    <p>Hello world!
-This is my first post</p>
+    <p>There are several CSS selectors which are available in modern browsers.
+here I’m gonna talk about 5 of them!</p>
+
+<h3 id="section">*</h3>
+<p>This is one the most popular one!
+It will target every single element on the page. many developer use this to make margin &amp; padding set to zero.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">*</span><span class="p">{</span>
+	<span class="ss">margin</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+	<span class="n">padding0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>Be carefull when using this. Ithis selector adds too much weight on the browser which may not be necessary.</p>
+
+<h3 id="a--b">A + B</h3>
+<p>This is an an adjacent selector. It targets only the element that is immediately preceded by the former element.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">div</span> <span class="o">+</span> <span class="nb">p</span> <span class="p">{</span>
+   <span class="ss">color</span><span class="p">:</span> <span class="n">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>in this example, only first p tag inside each div in all document is targeted.</p>
+
+<h3 id="atitle">A[title]</h3>
+<p>This is an attributes selector, in the example below this will only select the anchor tags that have a title attribute. Those which don’t have a title attribute will not receive this styling. </p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span><span class="o">[</span><span class="n">title</span><span class="o">]</span> <span class="p">{</span>
+   <span class="ss">color</span><span class="p">:</span> <span class="n">red</span><span class="p">;</span>
+   <span class="n">font</span><span class="o">-</span><span class="ss">size</span><span class="p">:</span><span class="mi">18</span><span class="n">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h3 id="ahref">A[href=”#”]</h3>
+<p>What if you want to be more specefic?
+The snippet below will target all anchor tags which link to http://google.com. All other anchor tags remain unaffected.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span><span class="o">[</span><span class="n">href</span><span class="o">=</span><span class="s2">&quot;http://google.com&quot;</span><span class="o">]</span> <span class="p">{</span>
+  <span class="ss">color</span><span class="p">:</span> <span class="n">blue</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h3 id="anotselector">A:not(selector)</h3>
+<p>This is a negation pseudo class. For example if you want to select all paragraphs, except for the one which has an id of content. the example below will handle that task perfectly.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">p</span><span class="ss">:not</span><span class="p">(</span><span class="c1">#content) {</span>
+   <span class="n">font</span><span class="o">-</span><span class="ss">size</span><span class="p">:</span><span class="mi">14</span><span class="n">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>CSS has several selectors that can be usefull and make coding easier for developers. in future post I will write more about these selectors.</p>
+
 
   </article>
 
