@@ -12,11 +12,3 @@ markdown: kramdown
 paginate: 5
 #conversion
 paginate_path: "page:num"
-
-collections:
-  main-en:
-    output: true
-    permalink: /en/:path/
-  main-ru:
-    output: true
-    permalink: /ru/:path/
